@@ -1,21 +1,15 @@
 
 def main():
 
-    fileNames = ["035_CreateArray"
-    ,"036_ArrayReplace"
-    ,"037_FirstReverseTry"
-    ,"038_ConcatenateArrays"
-    ,"039_RemoveArrayPart"
-    ,"040_IsSmooth"
-    ,"041_ReplaceMiddle"
-    ,"042_MakeArrayConsecutive2"]
+    fileNames = ["043_IsPower", "044_IsSumofConsecutive2", "045_SquareDigitsSequence", "046_PagesNumberingWithInk",
+                 "047_ComfortableNumbers", "048_WeakNumbers", "049_RectangleRotation", "050_CrosswordFormation"]
 
-    directory = "./arcade-theCore/05_ListForestEdge/"
+    directory = "./arcade-theCore/06_LabyrinthOfNestedLoops/"
 
     for name in fileNames:
         fullName = directory + name + ".py"
         print("Creating file " + fullName)
-        f = open(fullName,"w+")
+        f = open(fullName, "w+")
         f.close()
 
 
