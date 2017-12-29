@@ -1,10 +1,16 @@
 
 def main():
 
-    fileNames = ["043_IsPower", "044_IsSumofConsecutive2", "045_SquareDigitsSequence", "046_PagesNumberingWithInk",
-                 "047_ComfortableNumbers", "048_WeakNumbers", "049_RectangleRotation", "050_CrosswordFormation"]
+    fileNames = ["051_EncloseInBrackets",
+                 "052_ProperNounCorrection",
+                 "053_IsTandemRepeat",
+                 "054_IsCaseInsensitivePalindrome",
+                 "055_FindEmailDomain",
+                 "056_HTMLEndTagByStartTag",
+                 "057_IsMAC48Address",
+                 "058_IsUnstablePair"]
 
-    directory = "./arcade-theCore/06_LabyrinthOfNestedLoops/"
+    directory = "./python/arcade-theCore/07_BookMarket/"
 
     for name in fileNames:
         fullName = directory + name + ".py"
