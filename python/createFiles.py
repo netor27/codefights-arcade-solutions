@@ -1,10 +1,10 @@
 
 def main():
 
-    fileNames = ["059_StringsConstruction", "060_IsSubstitutionCipher", "061_CreateAnagram", "062_ConstructSquare",
-                 "063_NumbersGrouping", "064_DifferentSquares", "065_MostFrequentDigitSum", "066_NumberofClans"]
+    fileNames = ["067_HouseNumbersSum", "068_AllLongestStrings", "069_HouseofCats", "070_AlphabetSubsequence", "071_MinimalNumberofCoins", "072_AddBorder",
+                 "073_SwitchLights", "074_TimedReading", "075_ElectionsWinners", "076_IntegertoStringofFixedWidth", "077_AreSimilar", "078_AdaNumber", "079_ThreeSplit"]
 
-    directory = "./python/arcade-theCore/08_MirrorLake/"
+    directory = "./python/arcade-theCore/09_WellOfIntegration/"
 
     for name in fileNames:
         fullName = directory + name + ".py"
