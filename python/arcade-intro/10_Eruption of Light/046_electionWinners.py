@@ -1,4 +1,3 @@
-def electionsWinners(votes, k):
 '''
 Elections are in progress!
 
@@ -6,7 +5,6 @@ Given an array of the numbers of votes given to each of the candidates so far, a
 
 The winner of the election must secure strictly more votes than any other candidate. If two or more candidates receive the same (maximum) number of votes, assume there is no winner at all.
 '''
-
 def electionsWinners(votes, k):
     currentWinner = max(votes)    
     res = 0
