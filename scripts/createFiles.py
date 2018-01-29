@@ -1,10 +1,16 @@
 
 def main():
 
-    fileNames = ["088_ArrayConversion", "089_ArrayPreviousLess", "090_PairofShoes", "091_Combs", "092_StringsCrossover",
-                 "093_CyclicString", "094_BeautifulText", "095_RunnersMeetings", "096_ChristmasTree", "097_FileNaming"]
+    fileNames = ["098_ExtractMatrixColumn"
+,"099_AreIsomorphic"
+,"100_ReverseOnDiagonals"
+,"101_SwapDiagonals"
+,"102_CrossingSum"
+,"103_DrawRectangle"
+,"104_VolleyballPositions"
+,"105_StarRotation"]
 
-    directory = "../arcade/python/arcade-theCore/11_SprintOfIntegration/"
+    directory = "arcade/python/arcade-theCore/12_ListBackwoods/"
 
     for name in fileNames:
         fullName = directory + name + ".py"
