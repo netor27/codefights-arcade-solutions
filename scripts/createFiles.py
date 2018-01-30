@@ -1,16 +1,16 @@
 
 def main():
 
-    fileNames = ["098_ExtractMatrixColumn"
-,"099_AreIsomorphic"
-,"100_ReverseOnDiagonals"
-,"101_SwapDiagonals"
-,"102_CrossingSum"
-,"103_DrawRectangle"
-,"104_VolleyballPositions"
-,"105_StarRotation"]
+    fileNames = ["106_Sudoku"
+,"107_Minesweeper"
+,"108_Box Blur"
+,"109_Contours Shifting"
+,"110_Polygon Perimeter"
+,"111_Gravitation"
+,"112_Is Information Consistent"
+,"113_Correct Nonogram"]
 
-    directory = "arcade/python/arcade-theCore/12_ListBackwoods/"
+    directory = "arcade/python/arcade-theCore/13_WaterfallOfIntegration/"
 
     for name in fileNames:
         fullName = directory + name + ".py"
