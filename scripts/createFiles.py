@@ -1,16 +1,11 @@
 
 def main():
 
-    fileNames = ["106_Sudoku"
-,"107_Minesweeper"
-,"108_Box Blur"
-,"109_Contours Shifting"
-,"110_Polygon Perimeter"
-,"111_Gravitation"
-,"112_Is Information Consistent"
-,"113_Correct Nonogram"]
+    fileNames = [
+        "114_ShuffledArray", "115_SortbyHeight", "116_SortByLength", "117_BoxesPacking", "118_MaximumSum", "119_RowsRearranging", "120_DigitDifferenceSort", "121_UniqueDigitProducts"
+    ]
 
-    directory = "arcade/python/arcade-theCore/13_WaterfallOfIntegration/"
+    directory = "arcade/python/arcade-theCore/14_SortingOutpost/"
 
     for name in fileNames:
         fullName = directory + name + ".py"
