@@ -29,18 +29,19 @@ def bishopDiagonal(bishop1, bishop2):
     move2 = (b2[0]-b1[0], b2[1]-b1[1])
     
     return sorted([chessPos(getEndPos(b1, move1)), chessPos(getEndPos(b2, move2))])
-    
-    
+        
 
 def indexPos(p):
     y = int(p[1])-1
     x = ord(p[0])-ord('a')
-    return x,y
+    return x, y
+
 
 def chessPos(p):
     y = str(p[1]+1)
     x = chr(p[0] + ord('a'))
-    return x+y
+    return x + y
+
 
 def getEndPos(p, move):
     if move[0] == 0 or move[1] == 0:
@@ -54,3 +55,4 @@ def getEndPos(p, move):
         newPos = (p[0]+move[0], p[1]+move[1])
     
     return p
+    
