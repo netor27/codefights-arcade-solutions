@@ -1,11 +1,16 @@
 
 def main():
 
-    fileNames = [
-        "114_ShuffledArray", "115_SortbyHeight", "116_SortByLength", "117_BoxesPacking", "118_MaximumSum", "119_RowsRearranging", "120_DigitDifferenceSort", "121_UniqueDigitProducts"
-    ]
+    fileNames = ["122_BishopandPawn"
+,"123_ChessKnightMoves"
+,"124_BishopDiagonal"
+,"125_WhoseTurn"
+,"126_ChessBishopDream"
+,"127_ChessTriangle"
+,"128_AmazonCheckmate"
+,"129_PawnRace"]
 
-    directory = "arcade/python/arcade-theCore/14_SortingOutpost/"
+    directory = "arcade/python/arcade-theCore/15_ChessTavern/"
 
     for name in fileNames:
         fullName = directory + name + ".py"
