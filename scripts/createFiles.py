@@ -1,16 +1,17 @@
 
 def main():
 
-    fileNames = ["122_BishopandPawn"
-,"123_ChessKnightMoves"
-,"124_BishopDiagonal"
-,"125_WhoseTurn"
-,"126_ChessBishopDream"
-,"127_ChessTriangle"
-,"128_AmazonCheckmate"
-,"129_PawnRace"]
+    fileNames = [
+"155_PipesGame",
+"156_Game2048",
+"157_SnakeGame",
+"158_TetrisGame",
+"159_PyraminxPuzzle",
+"160_LinesGame",
+"161_Fractal",
+"162_TimeASCIIRepresentation",]
 
-    directory = "arcade/python/arcade-theCore/15_ChessTavern/"
+    directory = "arcade/python/arcade-theCore/19_CliffsOfPain/"
 
     for name in fileNames:
         fullName = directory + name + ".py"
