@@ -1,6 +1,6 @@
 import "strings"
 
-func reverseParentheses(s string) string {
+func reverseInParentheses(s string) string {
 	var stack []int
 	var start, end int
 	l := strings.Split(s, "")
